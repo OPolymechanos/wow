@@ -43,6 +43,7 @@ minetest.register_node("wow:block", {
         groups = {cracky = 3},
         drop = "wow:coin",
         is_ground_content = true,
+        light_source = 5,
 })
                                         
 -- Set necessary privileges for shop
