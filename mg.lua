@@ -1,17 +1,25 @@
 -- === Wownero Ore Generation === 
 
---NOT WORKING
- 
+minetest.register_ore({
+     ore_type = "scatter",
+     ore = "wow:block",
+     wherein = "default:stone",
+     clust_scarcity = 36*36*36,
+     clust_num_ores = 1,
+     clust_size  = 1,
+     y_min = -31000,
+     y_max = -1024,
+ })
 
 minetest.register_ore({
      ore_type = "scatter",
      ore = "wow:block",
      wherein = "default:stone",
-     clust_scarcity = 6*6*6,
-     clust_num_ores = 8,
-     clust_size  = 3,
+     clust_scarcity = 17*17*17,
+     clust_num_ores = 1,
+     clust_size  = 1,
      y_min = -31000,
-     y_max= 64,
+     y_max = -4096,
  })
 
 

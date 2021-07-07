@@ -1,0 +1,6 @@
+TO DO
+
+- Add function to wow:pick that gives small chance of dropping wow:coin when mining
+- Add potion-like effects when consuming baked wow:coin
+- Add Wownero meme posters/banners
+- Add node/sign that displays players' real wownero address for donations of real WOW 

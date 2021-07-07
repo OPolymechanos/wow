@@ -1,7 +1,8 @@
 # wow
 A Wownero-themed Minetest Mod
 
-Mostly by Polymechanos
+Contributors
+Polymechanos, Nathan S.
 
 With bits adapted from the following mods:
 - bitchange by Kronk (license WTFPL)
