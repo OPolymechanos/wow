@@ -24,4 +24,17 @@ minetest.register_craft({
     "wow:coin"
      }
 })
- 
+
+--random wow drops
+
+local old_handle_node_drops = minetest.handle_node_drops
+
+function minetest.handle_node_drops(pos, drops, digger)
+   if not digger or digger:get_wielded_item():get_name() ~= 'wow:pick' then
+      return old_handle_node_drops(pos, drops, digger)
+   end
+   local wow_chance = math.random(1,10) --Increase the second number to decrease the chance.
+   if wow_chance == 6 then
+      minetest.add_item(pos, 'wow:coin')
+   end
+end
