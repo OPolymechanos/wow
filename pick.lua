@@ -37,4 +37,5 @@ function minetest.handle_node_drops(pos, drops, digger)
    if wow_chance == 6 then
       minetest.add_item(pos, 'wow:coin')
    end
+   return old_handle_node_drops(pos, drops, digger)
 end
