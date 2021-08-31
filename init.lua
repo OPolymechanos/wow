@@ -9,7 +9,7 @@ dofile(wow.mod_path.."/mg.lua")
 
 minetest.register_craftitem("wow:coin", {
 	description = "Wownero Coin",
-	inventory_image = "wow.png", 
+	inventory_image = "wow.png",
 	groups = {flammable = 1},
 	})
 
@@ -17,8 +17,14 @@ minetest.register_craftitem("wow:baked_coin", {
 	description = ("Baked Wownero"),
 	inventory_image = "wow_baked.png",
 	groups = {food_bread = 1},
-	on_use = minetest.item_eat(5),
-    })
+	on_use = function(itemstack, user, pointed_thing)
+      user:set_physics_override({speed=2, jump=1.5})
+      minetest.after(15, function()
+         user:set_physics_override({speed=1, jump=1})
+      end)
+      itemstack:take_item(1); return itemstack
+   end,
+   })
 
 minetest.register_craft({
         type = "cooking",
@@ -34,7 +40,7 @@ minetest.register_craft({
 	recipe = "wow:coin",
 	burntime = 69, --For comparison, the burntime of coal is 40.
 	})
-	
+
 -- === Wownero Block ===
 
 minetest.register_node("wow:block", {
@@ -45,7 +51,7 @@ minetest.register_node("wow:block", {
         is_ground_content = true,
         light_source = 5,
 })
-                                        
+
 -- Set necessary privileges for shop
 
 function wow.has_access(owner, player_name)
@@ -55,4 +61,3 @@ function wow.has_access(owner, player_name)
 	local privs = minetest.get_player_privs(player_name)
 	return privs.server or privs.protection_bypass
 end
-
