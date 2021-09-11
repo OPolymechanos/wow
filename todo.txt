@@ -1,6 +1,9 @@
 TO DO
 
-- Add function to wow:pick that gives small chance of dropping wow:coin when mining
-- Add potion-like effects when consuming baked wow:coin
-- Add Wownero meme posters/banners
+- Add craftable Wownero meme posters/banners [Bounty 50 WOW]
 - Add node/sign that displays players' real wownero address for donations of real WOW 
+- Add new amazing feature of your choice [Bounty 50] (Note that the bounty will be given only if the feature gets added by the mod dev.)
+
+
+Notice -- all bounties are subject to the mod developer's discretion. A pull request with poorly or partially implemented features will receive only a partial bounty.
+
