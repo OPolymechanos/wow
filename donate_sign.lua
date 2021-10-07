@@ -10,7 +10,7 @@ What are you waiting for? Fill out the information and save it already.]]
 local view_info =
    [[Wownero is a CPU-mineable, solo-mining only, privacy-centric memecoin. You can learn more by visiting wownero.org or forum.wownero.com
 
-If you enjoy this player's work you could tip them some WOW. The WOW address will be longer than what can display at a given time, so you'll have to click the address and use Ctrl+A to select it in its entirety. Copy with Ctrl+C and open your WOW wallet. Paste the address into the Pay To field and fill out the rest of the information.
+If you enjoy this player's work you could tip them some WOW. The WOW address will be longer than what can display at a given time, so you'll have to click the address and use Ctrl+A (Cmd+A on Mac) to select it in its entirety. Copy with Ctrl+C and open your WOW wallet. Paste the address into the Pay To field and fill out the rest of the information.
 Pro-tip if you leave this window open you'll be able to use your mouse in other programs. :)]]
 
 local sign_formspec =
