@@ -1,16 +1,16 @@
 local esc = minetest.formspec_escape
 
 local edit_info =
-   [[Wownero is a Doge-inspired, CPU-mineable, solo-mining only, privacy-centric memecoin. You can learn more by visiting wownero.org or forum.wownero.com
+   [[Wownero is a CPU-mineable, solo-mining only, privacy-centric memecoin. You can learn more by visiting wownero.org or forum.wownero.com.
 
-By placing this sign, and providing a valid wownero subaddress people can tip your work with crypto.
+By placing this sign and providing a valid wownero subaddress, people can tip your work with crypto.
 
 What are you waiting for? Fill out the information and save it already.]]
 
 local view_info =
-   [[Wownero is a Doge-inspired, CPU-mineable, solo-mining only, privacy-centric memecoin. You can learn more by visiting wownero.org or forum.wownero.com
+   [[Wownero is a CPU-mineable, solo-mining only, privacy-centric memecoin. You can learn more by visiting wownero.org or forum.wownero.com
 
-If you enjoy this players work you could tip them some wow. The address will be longer than what can display at a given time so you'll have to click and drag to highlight it entirly. Copy with Ctrl+C and open your wow wallet. Paste the address into the Pay To field and fill out the rest of the information.
+If you enjoy this player's work you could tip them some WOW. The WOW address will be longer than what can display at a given time, so you'll have to click the address and use Ctrl+A to select it in its entirety. Copy with Ctrl+C and open your WOW wallet. Paste the address into the Pay To field and fill out the rest of the information.
 Pro-tip if you leave this window open you'll be able to use your mouse in other programs. :)]]
 
 local sign_formspec =
