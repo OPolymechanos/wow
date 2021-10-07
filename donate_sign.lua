@@ -39,7 +39,6 @@ local function view_sign(title, address, owner)
    return formspec
 end
 
-
 minetest.register_node("wow:donate_sign", {
    drawtype = "mesh",
    mesh = "wow_sign.obj",
@@ -88,4 +87,13 @@ minetest.register_node("wow:donate_sign", {
          meta:set_string('address', fields.address)
       end
    end,
+})
+
+
+minetest.register_craft({
+    type = "shapeless",
+    output= "wow:donate_sign",
+    recipe = {
+      "default:sign_wall_wood",
+      "wow:coin"}
 })

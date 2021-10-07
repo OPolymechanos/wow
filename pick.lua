@@ -1,7 +1,7 @@
 --=== Wownero Pick ===
 
 minetest.register_tool('wow:pick',{
-     description = 'xmrig',
+     description = 'WOW pick',
      inventory_image = 'wow_pick.png',
      tool_capabilities = {
          full_punch_interval = 0.9,

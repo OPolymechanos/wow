@@ -450,11 +450,12 @@ minetest.register_node(":wow:shop", {
 })
 
 minetest.register_craft({
+  type = "shapeless",
 	output = "wow:shop",
 	recipe = {
-		{"wow:coin"},
-		{"default:chest_locked"},
-	}
+		"wow:coin",
+		"default:chest_locked"},
+	
 })
 
 minetest.register_on_leaveplayer(function(player)
