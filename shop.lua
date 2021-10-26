@@ -6,21 +6,6 @@ License: WTFPL
 =======================================================
 ]]
 
---[[
-if not wow then
-	-- Default values, if wow wasn't found.
-	wow = {}
-	wow.exchangeshop_pipeworks = true
-
-	function wow.has_access(owner, player_name)
-		if player_name == owner or owner == "" then
-			return true
-		end
-		local privs = minetest.get_player_privs(player_name)
-		return privs.server or privs.protection_bypass
-	end
-end
-]]
 
 local exchange_shop = {}
 
@@ -73,7 +58,7 @@ local function list_remove_item(inv, listname, stack)
 		end
 	end
 
-	-- Todo: Also remove kebab
+
 	local removed_stack = ItemStack(name)
 	removed_stack:set_count(wanted - remaining)
 	removed_stack:set_wear(removed_wear)

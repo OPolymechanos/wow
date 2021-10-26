@@ -1,7 +1,6 @@
 TO DO
 
 - Add craftable Wownero meme posters/banners [Bounty 50 WOW]
-- Add node/sign that displays players' real wownero address for donations of real WOW 
 - Add new amazing feature of your choice [Bounty 50] (Note that the bounty will be given only if the feature gets added by the mod dev.)
 
 

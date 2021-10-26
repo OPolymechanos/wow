@@ -7,7 +7,7 @@ A Wownero-themed Minetest Mod featuring
 - A special pickaxe
     - Mining with pickaxe gives a small chance of dropping Wownero coins
     - Crafting: Any pick + WOW coin (shapeless)
-    - NOTE: The wownero coin drop-rate is currently unbalanced with the pickaxe wear, etc. This means that, in its current state, this mechanic will inevitably lead to high levels of monetary inflation on a server environment.
+    - NOTE: The wownero coin drop-rate is currently unbalanced with the pickaxe wear, etc. This means that, in its current state, this mechanic will inevitably lead to high levels of monetary inflation on a server environment. On the current settings, the pickaxe will drop 3 coins every 300 blocks broken. One pickaxe will break 182 blocks. Thus, the cost-per-drop is about 1.6 coins in crafting costs for the picks, meaning that players will earn, on average, 1.4 coins in profit every drop. 
 - Donate Signs
     - Players can place signs containing their wallet address to allow for donations of real WOW outside of the game.
     - Crafting: Wooden sign + WOW coin (shapeless)
