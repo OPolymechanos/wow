@@ -1,6 +1,8 @@
 wow = {}
 wow.mod_path = minetest.get_modpath("wow")
 
+dofile(wow.mod_path.."/config.lua")
+dofile(wow.mod_path.."/fragments.lua")
 dofile(wow.mod_path.."/shop.lua")
 dofile(wow.mod_path.."/pick.lua")
 dofile(wow.mod_path.."/mg.lua")
