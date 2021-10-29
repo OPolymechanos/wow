@@ -14,9 +14,6 @@ if WOW_FRAGMENTS == true then
       'wow:fragment',
       'wow:fragment',
       'wow:fragment',
-      'wow:fragment',
-      'wow:fragment',
-      'wow:fragment',
     }
   })
 

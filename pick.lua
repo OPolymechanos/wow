@@ -50,5 +50,7 @@ function minetest.handle_node_drops(pos, drops, digger)
       ]]--
       minetest.sound_play("wow_coins", pos)
    end
-   return old_handle_node_drops(pos, drops, digger)
+   if WOW_ENTROPY == false then
+     return old_handle_node_drops(pos, drops, digger)
+   end
 end
