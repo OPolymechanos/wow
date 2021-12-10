@@ -17,6 +17,12 @@ A Wownero-themed Minetest Mod featuring
     - Shop nodes make it easy to sell items for WOW coins
     - Operate as vending machines and may be set up and checked periodically
     - Crafting: Locked chest + WOW coin (shapeless)
+- In-game painting
+    - Now you can meme and troll your friends without leaving MineTest.
+    - Painting easle 
+    - Canvases in 3 resolutions (16x16, 32x 32, 64x64)
+    - Note: To place a canvas for painting, select canvas and left-click easle. To remove canvas, click canvas side-surface. It's a bit buggy.
+    - Full of free bugs!
 
 Contributors
 Polymechanos, Nathan S.
