@@ -23,6 +23,6 @@ Polymechanos, Nathan S.
 
 With bits adapted from the following mods:
 - bitchange by Kronk (license WTFPL)
-
+- painting by obneq aka jin xi (license WTFPL)
 
 

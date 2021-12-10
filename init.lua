@@ -7,6 +7,7 @@ dofile(wow.mod_path.."/shop.lua")
 dofile(wow.mod_path.."/pick.lua")
 dofile(wow.mod_path.."/mg.lua")
 dofile(wow.mod_path.."/donate_sign.lua")
+dofile(wow.mod_path.."/painting.lua")
 
 -- === Wow Coins ===
 
