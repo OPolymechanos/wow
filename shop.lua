@@ -348,7 +348,10 @@ minetest.register_node(":wow:shop", {
 	description = "Shop",
 	tiles = {"wow_shop_top.png", "wow_shop_top.png",
 			 "wow_shop_side.png", "wow_shop_side.png",
-			 "wow_shop_side.png", "wow_shop_front.png"},
+			 "wow_shop_side.png", 
+       {name="wow_shop_front-sheet.png", animation={type="vertical_frames", aspect_w=16, aspect_h=16, length=8.0,}
+          } 
+          },
 	paramtype2 = "facedir",
 	groups = get_exchange_shop_tube_config("groups"),
 	tube = get_exchange_shop_tube_config("tube"),
